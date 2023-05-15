@@ -10,6 +10,7 @@ import ForFunctionProps from './components/welcome/ForFunctionProps';
 import Interpolacao from './components/welcome/Interpolacao';
 import Ternary from './components/welcome/Ternary';
 import Randow from './components/welcome/Randow';
+import CurrentTime from './components/clock/CurrentTime';
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
       <ForFunctionProps name="Word" />
       <Ternary />
       <Randow />
+
+      <CurrentTime />
     </div>
   );
 }
