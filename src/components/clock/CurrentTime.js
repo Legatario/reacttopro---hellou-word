@@ -1,3 +1,5 @@
+//criando componente que gere a data e hora atual
+
 import React, { useState, useEffect } from 'react';
 
 function CurrentTime() {
